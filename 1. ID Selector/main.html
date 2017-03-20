@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Testing jQuery</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+	<header><h4>Testing jQuery</h4></header>
+	<h4>Click on the below paragraph to hide it. If it hides upon clicking, then jQuery is working.</h4>
+	<p id="para" onclick="$(this).hide();">This is a paragraph</p></body></br>
+	<p>Clicking the button below also hides the above paragraph.</p>
+	<button type="button" onclick="$('#para').hide();">Hide Paragraph</button>
+</body>
+</html>
